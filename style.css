@@ -43,9 +43,13 @@ ul{
     border: none;
     margin: 0px 10px;
 }
-.btn-nav a:hover{
-    text-decoration: underline;
-    background-color: rgb(73, 19, 19);
+.btn-nav:hover{
+    background-color: #222222;
+    color: #FFF8EF;
+}
+.btn-nav:active{
+    background-color: #f59191;
+    color: #d14949;
 }
 li{
     list-style: none;
@@ -53,31 +57,56 @@ li{
 }
 a{
     text-decoration: none;
-    color: black;
+    color: rgb(209, 72, 72);
 }
-li a:hover{
+li:hover{
     text-decoration: underline;
 }
+    
 
 header {
-    height: 100vh;
-    width: 100%;
+    height: auto;
+    width: auto;
     background-image:url(./Sources/mateocostab_A_middle-aged_woman_in_a_blue_blouse_is_smiling_and_db191723-669b-4d3a-86cc-d08a1061ca83\ 1.jpg);
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: cover;
     background-position: top;
-    padding-top: 5em;
+    padding-top: 5em;  
 }
 .header{
+    color: #ffffff;
     width: auto;
-    height: 100vh;
+    height: auto;
     display: flex;
     justify-content: left;
     flex-direction: column;
-    padding: 100px 80px;
+    align-items: baseline;
+    text-align: left;
+    padding: 100px 400px 100px 80px;
     background: linear-gradient(90deg, rgba(67,44,29,1) 0%, rgba(213,127,54,0) 100%);
 }
 h1 {
-    font-size: 80px;
+    font-size: 64pt;
     font-family: DM Serif Display;
+    font-weight: 600;
+    line-height: 100%;
+}
+.header p {
+    font-weight: 300;
+    font-size: medium;
+}
+.btn-header{
+    padding: 5px 50px;
+    background-color: #FFF8EF;
+    color: #432C1D;
+    font-family: 'poppins';
+    font-weight: 600;
+    font-size: 16pt;
+    border-radius: 20px;
+    border: none;
+    margin: 0px 10px;
+}
+.btn-header:hover{
+    background-color: #222222;
+    color: #FFF8EF;
 }
