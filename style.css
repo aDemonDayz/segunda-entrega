@@ -136,3 +136,13 @@ h1 {
 .btn-night:hover{
     background-color: #5e6392;
     color: #050505;
+}
+
+.dark{
+    background-color: rgb(16, 16, 36);
+    color: whitesmoke;
+}
+.enlaceOscuro {
+    color: whitesmoke;
+    text-decoration: none;
+}
