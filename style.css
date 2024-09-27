@@ -110,3 +110,29 @@ h1 {
     background-color: #222222;
     color: #FFF8EF;
 }
+#body{
+    width: 100%;
+    height: 100vh;
+}
+.oscuro{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(16, 16, 36);
+    color: whitesmoke;
+}
+
+.btn-night{
+    padding: 5px 50px;
+    background-color: #281b3d;
+    color: #ffffff;
+    font-family: 'poppins';
+    font-weight: 600;
+    font-size: 16pt;
+    border-radius: 20px;
+    border: none;
+    margin: 0px 10px;
+}
+
+.btn-night:hover{
+    background-color: #5e6392;
+    color: #050505;
